@@ -98,5 +98,6 @@ C:\Users\Admin\Documents\Ikea\Ikea\obj\Debug\net9.0\ref\MyProject.dll
 C:\Users\Admin\Documents\Ikea\Ikea\obj\Debug\net9.0\compressed\0qfxn1yfio-u3yuhvg9oy.gz
 C:\Users\Admin\Documents\Ikea\Ikea\obj\Debug\net9.0\compressed\6bvws7qsxh-or6lzsrdk2.gz
 C:\Users\Admin\Documents\Ikea\Ikea\obj\Debug\net9.0\compressed\l4u86uq5k1-or6lzsrdk2.gz
-C:\Users\Admin\Documents\Ikea\Ikea\obj\Debug\net9.0\compressed\fj5kfv8utx-r2n8xwlwrc.gz
 C:\Users\Admin\Documents\Ikea\Ikea\obj\Debug\net9.0\compressed\6l1yf273xe-tdn23cqe0l.gz
+C:\Users\Admin\Documents\Ikea\Ikea\obj\Debug\net9.0\MyProject.sourcelink.json
+C:\Users\Admin\Documents\Ikea\Ikea\obj\Debug\net9.0\compressed\fj5kfv8utx-8tmfojhg72.gz
