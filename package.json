@@ -1,0 +1,21 @@
+{
+  "name": "ikea",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch wwwroot/scss/main.scss:wwwroot/css/main.css",
+    "backend": "dotnet watch run",
+    "dev": "concurrently \"npm run sass\" \"npm run backend\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bootstrap": "^5.3.5"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "sass": "^1.86.3"
+  }
+}

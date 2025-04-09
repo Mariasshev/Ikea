@@ -1,0 +1,67 @@
+
+a {
+    color: #000000;
+    text-decoration: none!important;
+  }
+
+  .collection-card {
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .image-container {
+    overflow: hidden;
+    max-height: 300px;
+  }
+  
+  .zoom-image {
+    transition: transform 0.5s ease;
+  }
+  
+  .zoom-image:hover {
+    transform: scale(1.1);
+  }
+
+  .hero-section {
+    min-height: 85vh;
+    padding-top: 40px;
+    // padding-bottom: 4rem;
+    position: relative;
+    overflow: hidden;
+  
+    .hero-bg {
+      background: url("../images/index/hero-img.jpg") no-repeat center center;
+      background-size: cover;
+      filter: brightness(1);
+      z-index: 1;
+    }
+  
+    .z-2 {
+      z-index: 2;
+      position: relative;
+    }
+  
+    .btn {
+      font-size: 0.95rem;
+      border-radius: 2rem;
+    }
+  
+    .product-card {
+      transition: transform 0.2s ease;
+      cursor: pointer;
+  
+      &:hover {
+        transform: scale(1.02);
+      }
+    }
+  
+    .top-badge {
+      background-color: #839D9A;
+      color: white;
+      font-weight: 600;
+      font-size: 11px;
+      padding: 10px 5px;
+      border-radius: 50%;
+    }
+  }
+  

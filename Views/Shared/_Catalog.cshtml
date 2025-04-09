@@ -1,0 +1,23 @@
+@* Shared/_Catalog.cshtml *@
+@{
+    var totalItems = 18; // Сколько всего элементов
+}
+
+<div class="container my-5">
+    <h5 class="fw-bold mb-4">КАТАЛОГ</h5>
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-4 text-center">
+        @for (int i = 1; i <= totalItems; i++)
+        {
+            var imgPath = Url.Content($"~/images/index/catalog/img-{i}.png");
+            <div class="col">
+                <div class="d-flex flex-column align-items-center">
+                    <a href="" class="">
+                        <img src="@imgPath" class="img-fluid mb-2 zoom-image" alt="Каталог @i" />
+                    <span class="fw-medium">НАЗВА НАБОРУ</span>
+                    </a>
+                    
+                </div>
+            </div>
+        }
+    </div>
+</div>

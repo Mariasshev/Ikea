@@ -1,0 +1,66 @@
+<!-- Views/Shared/_Header.cshtml -->
+<header class="bg-light py-3">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Левая часть хедера -->
+      <div class="col-6 col-md-8 d-flex align-items-center">
+        <!-- Иконка меню (гамбургер) на мобильных -->
+        <button class="navbar-toggler d-md-none" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Иконка входа -->
+        <a href="#" class="text-dark me-3">
+          <i class="bi bi-list"></i> 
+          <span class="d-block text-center">Меню</span>
+        </a>
+
+        <!-- Логотип -->
+        <a href="/" class="d-flex align-items-center me-4">
+          <img src="/images/header/logo.svg" alt="Логотип" class="img-fluid">
+        </a>
+
+        <!-- Навигационные ссылки -->
+        <nav class="navbar navbar-expand-md d-none d-md-flex">
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Товари</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Кімнати</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Дизайн</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <!-- Правая часть хедера -->
+      <div class="col-6 col-md-4 d-flex justify-content-end align-items-center">
+        <!-- Иконка геолокации -->
+        <a href="#" class="text-dark me-3">
+          <i class="bi bi-geo-alt"></i> Київ
+        </a>
+
+        <!-- Иконка входа -->
+        <a href="#" class="text-dark me-1">
+          <i class="bi bi-person"></i> 
+          <span class="d-none d-md-flex">Привіт! Увійдіть в систему</span>
+        </a>
+
+        <!-- Иконка корзины -->
+        <a href="#" class="text-dark me-3">
+          <i class="bi bi-cart"></i>
+        </a>
+
+        <!-- Иконка сердца -->
+        <a href="#" class="text-dark">
+          <i class="bi bi-suit-heart"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</header>

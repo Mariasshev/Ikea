@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IKEA</title>
+
+    <!-- Подключение Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    
+    <!-- Подключение кастомных стилей -->
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/MyProject.styles.css" asp-append-version="true" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    
+    <!-- Подключение кастомного CSS (например, main.css) -->
+    <link href="~/css/main.css" rel="stylesheet" asp-append-version="true" />
+</head>
+<body>
+    @* Header *@
+    @await Html.PartialAsync("_Header")
+
+     @* Hero *@
+    @await Html.PartialAsync("_HeroSection")
+
+    @* Promo *@
+    @await Html.PartialAsync("_Promoblock")
+
+    @* Categories *@
+    @await Html.PartialAsync("_Categories")
+
+    @* New items *@
+    @await Html.PartialAsync("_NewItems")
+
+    @* Catalog *@
+    @await Html.PartialAsync("_Catalog")
+
+    @RenderBody()
+</body>
+
+</html>

@@ -1,0 +1,34 @@
+@* Shared/_Categories.cshtml *@
+<div class="container my-5">
+    <!-- РЕКОМЕНДАЦІЇ -->
+    <h5 class="fw-bold mb-4">РЕКОМЕНДАЦІЇ</h5>
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3">
+        @for (int i = 0; i < 6; i++)
+        {
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../images/index/img-1.jpg" class="card-img-top" alt="Recommendation Image @(i + 1)">
+                    <div class="card-body text-center">
+                        <button class="btn btn-light border rounded-pill">НАЗВА НАБОРУ</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- НАЙКРАЩІ НАБОРИ -->
+    <h5 class="fw-bold mt-5 mb-4">НАЙКРАЩІ НАБОРИ</h5>
+    <div class="row row-cols-2 row-cols-sm-3 row-cols-md-4 row-cols-lg-6 g-3">
+        @for (int i = 0; i < 6; i++)
+        {
+            <div class="col">
+                <div class="card h-100">
+                    <img src="../images/index/img-1.jpg" class="card-img-top" alt="Top Set Image @(i + 1)">
+                    <div class="card-body text-center">
+                        <button class="btn btn-light border rounded-pill">НАЗВА НАБОРУ</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
